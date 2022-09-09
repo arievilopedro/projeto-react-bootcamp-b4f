@@ -1,0 +1,94 @@
+
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+
+}
+
+.milliseconds {
+    display: flex;
+    font-size: 75px;
+    color: #fff;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #F74843;
+    padding: 24px;
+    width: 3ch;
+
+}
+
+.tempoRoda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+
+}
+
+.tempo {
+    display: flex;
+    align-content: center;
+}
+
+.restante {
+    display: flex;
+    color: #fff;
+    -webkit-text-stroke-width: 7px;
+    -webkit-text-stroke-color: #F74843;
+}
+
+.butoes {
+    display: flex;
+    flex-direction: row;
+    z-index: 4;
+    margin: auto;
+    gap: 40px
+
+}
+
+.roda {
+    width: 450px;
+    margin-right: 100px;
+    padding: 24px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    width: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+/* 
+@media (prefers-reduced-motion: no-preference) {
+    .roda {
+        animation: App-logo-spin infinite 60s linear forwards;
+    }
+
+    .naoroda {
+
+        animation-play-state: paused;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+} */
